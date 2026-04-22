@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+/* GLASS EFFECT */
+.glass {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+/* CONTAINER */
+.container {
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+/* INPUT */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* BUTTON */
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #00c6ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0072ff;
+    transform: scale(1.05);
+}
+
+/* CARDS */
+.card {
+    margin: 20px;
+}
+
+/* SKILLS */
+.skill {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    background: #00c6ff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+/* ALERT */
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #00c6ff;
+    padding: 15px;
+    border-radius: 5px;
+    animation: fadeIn 0.5s;
+}
+
+.hidden {
+    display: none;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
