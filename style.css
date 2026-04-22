@@ -44,7 +44,20 @@ button:hover {
     background: #0072ff;
     transform: scale(1.05);
 }
+/* PROFILE IMAGE */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #00c6ff;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
 
+.profile-pic:hover {
+    transform: scale(1.1);
+}
 /* CARDS */
 .card {
     margin: 20px;
