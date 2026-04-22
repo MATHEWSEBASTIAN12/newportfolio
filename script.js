@@ -15,11 +15,11 @@ function login() {
     let pass = document.getElementById("password").value;
 
     if(user === "admin" && pass === "1234") {
-        showAlert("✅ Login Successful!");
+        showAlert("✅ Login Successful!,but you are under threat");
         document.getElementById("loginPage").classList.add("hidden");
         document.getElementById("otpPage").classList.remove("hidden");
     } else {
-        alert("❌ Invalid Login!");
+        alert("❌ Invalid Login!,get out*!!!!");
     }
 }
 
